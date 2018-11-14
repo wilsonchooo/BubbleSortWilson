@@ -44,5 +44,15 @@ public class Main {
         }
 
     }
+    public int[] randomIntarr(int count)
+    {
+        int[] cut =new int[count];
+        for (int i=0;i<cut.length;i++)
+        {
+            cut[i]=(int)(Math.random()*10000);
+        }
+        return cut;
+
+    }
 }
 
